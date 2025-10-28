@@ -1,4 +1,4 @@
-module go-avatar-normalizer
+module go-avatar-normalization
 
 go 1.25
 
