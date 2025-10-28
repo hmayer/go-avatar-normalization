@@ -1,6 +1,6 @@
 # Go Avatar Normalization
 
-A Go-based HTTP service for avatar image processing and normalization.
+A Go-based HTTP service for avatar image processing and normalization based on my Python/Flask implementation: https://github.com/hmayer/avatar-normalization.
 This service provides an endpoint to upload and process avatar images.
 
 ## Features
