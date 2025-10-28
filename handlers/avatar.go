@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"go-avatar-normalizer/actions"
+	"go-avatar-normalization/actions"
 	"image/png"
 	"io"
 	"mime/multipart"

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-avatar-normalizer/handlers"
+	"go-avatar-normalization/handlers"
 	"net/http"
 	"os"
 	"path/filepath"
