@@ -1,0 +1,8 @@
+services:
+  avatar:
+    build:
+      context: './'
+      dockerfile: Dockerfile
+    image: 'hmayer/go-avatar-normalization'
+    ports:
+      - '8000:8000'
