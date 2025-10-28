@@ -3,6 +3,9 @@
 A Go-based HTTP service for avatar image processing and normalization based on my Python/Flask implementation: https://github.com/hmayer/avatar-normalization.
 This service provides an endpoint to upload and process avatar images.
 
+# Why not use AI to normalize avatars?
+Because AI isn't silver bullet and OpenCV is a cheaper alternative.
+
 ## Features
 
 - Avatar image upload and processing via HTTP endpoint
