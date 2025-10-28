@@ -35,6 +35,6 @@ func clearLoop() {
 func main() {
 	http.HandleFunc("/avatar", handlers.AvatarUploadHandler)
 	fmt.Println("Routes defined")
-	clearLoop()
+	go clearLoop()
 	fmt.Println(http.ListenAndServe(":8000", nil))
 }
