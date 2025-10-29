@@ -20,7 +20,7 @@ func clearCachedFiles() {
 		info, _ := os.Stat(f)
 		if info.ModTime().Before(retention) {
 			fmt.Println("Removing old cached file", info.Name())
-			os.Remove(f)
+			_ = os.Remove(f)
 		}
 	}
 }
