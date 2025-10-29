@@ -60,7 +60,7 @@ go build -o go-avatar-normalization
 
 ### Docker Installation
 
-Build the Docker image:
+Execute the first steps of the local installation, then build the Docker image:
 ```bash
 docker compose build --no-cache
 ```
@@ -116,7 +116,7 @@ The Dockerfile uses a multi-stage build to:
 1. **Builder stage:** Compiles the application with all build dependencies
 2. **Final stage:** Creates a minimal runtime image with only necessary libraries
 
-This approach significantly reduces the final image size.
+This approach reduces the final image size.
 
 ## Troubleshooting
 
